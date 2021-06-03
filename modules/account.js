@@ -3,7 +3,7 @@ var router = express.Router()
 var ddf = require('./ddfGeneral')
 var crypto = require('crypto')
 const { resSend, resStatuses } = require('./ddfGeneral')
-
+ 
 exports.router = router
 
 router.post("/signup", async function (req, res) {

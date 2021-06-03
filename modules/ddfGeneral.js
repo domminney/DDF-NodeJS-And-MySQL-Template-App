@@ -1,6 +1,6 @@
 var mysql = require('mysql2')
 
-module.exports = {
+module.exports = { 
     getConn: function () {
         var con = mysql.createConnection({
             "host": "127.0.0.1",
